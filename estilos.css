@@ -1,0 +1,617 @@
+body {
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .search-container {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu a {
+        padding: 10px 0;
+    }
+}
+
+/* Styles for screens larger than 768px */
+.nav-container {
+    margin: 20px;
+    background-color: #FCC302;
+}
+
+.navbar {
+    background-color: #FFA500;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 120px;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.search-container input[type="text"] {
+    padding: 6px;
+    border: none;
+}
+
+.search-container button {
+    padding: 1px;
+    width: 48px;
+    height: 28px;
+    background: #2196F3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container img {
+    width: 20px;
+}
+
+/* Primera sección */
+.background-seccion1 {
+    background-color: #fcc302;
+    padding: 130px 100px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.background-seccion1 .titulo {
+    color: white;
+    font-size: xx-large;
+}
+
+.background-seccion1 .text-align {
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
+.button-primary button {
+    padding: 10px 20px;
+    background-color: #00bec9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-secondary button {
+    padding: 10px 20px;
+    background-color: #fcc302;
+    color: white;
+    border: 2px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.perro {
+    position: absolute;
+    top: 20px;
+    right: 100px; /* Cambié el valor de 20px a 40px */
+    width: 100%;
+    max-width: 300px;
+}
+
+.perro img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Segunda sección */
+.background-seccion2 {
+    padding: 130px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.background-seccion2 .texto p {
+    color: white;
+}
+
+.background-seccion2 .contenido {
+    flex: 1;
+}
+
+.background-seccion2 .titulo {
+    color: white; /* Cambié el color a blanco */
+}
+
+.background-seccion2 .text-align {
+    color: #000000;
+}
+
+.background-seccion2 .button-primary2 button {
+    padding: 10px 20px;
+    background-color: #fcc302; /* Corregí el color a minúsculas */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.background-seccion2 .persona {
+    flex: 1;
+    padding: 1px 120px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.background-seccion2 .persona img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Tercera sección */
+.background-seccion3 {
+    background-color: #FCC302;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    padding: 130px 100px;
+}
+
+.background-seccion3 .texto p {
+    color: white;
+}
+
+.background-seccion3 .titulo {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.background-seccion3 .contenedor-imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.background-seccion3 .imagen-con-texto {
+    text-align: center;
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.background-seccion3 .imagen-con-texto img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Cuarta sección */
+.background-seccion4 {
+    background-color: #ffffff;
+    padding: 100px 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.background-seccion4 .persona2 {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.background-seccion4 .persona2 img {
+    width: 80%;
+    margin-bottom: 20px;
+    max-width: 800px;
+    max-height: 600px;
+}
+
+.background-seccion4 .titulo2 {
+    flex: 1;
+    color: #000000;
+}
+
+.background-seccion4 .titulo2 {
+    text-align: right;
+    font-size: x-large;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    color: #000000;
+}
+
+.background-seccion4 .button-terciary button {
+    padding: 10px 10px;
+    color: #ffffff;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: #FCC302;
+    border: none;
+    width: 100px;
+}
+
+/* Quinta sección */
+.background-seccion5 .contenedor-imagenes {
+    padding: 70px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fcc302;
+}
+.titulo5 {
+    text-align: center;
+}
+
+.background-seccion5 .imagen-con-texto {
+    text-align: center;
+    margin: 20px;
+    color: white;
+    font-size: 10px; /* Cambiado a 10px */
+}
+
+.background-seccion5 .imagen-con-texto img {
+    max-width: 70%; /* Cambiado a 70% */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.background-seccion5 .imagen-con-texto button {
+    background-color: #00bec9; /* Cambiado a minúsculas */
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+.background-seccion6{
+    padding: 100px 140px;
+    background-color: #ffffff;
+}
+
+.team-section{
+    text-align: center;
+    color: #313243;
+}
+
+.team-member{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0%;
+}
+
+.member-details {
+    text-align: center;
+}
+.member-details img {
+    max-width: 70%; /* Establece el ancho máximo de la imagen al 100% del contenedor */
+    height: 50%;
+    margin-top: 20px; /* Hace que la altura de la imagen se ajuste proporcionalmente al ancho */
+
+}
+
+.background-seccion7 {
+    background-image: linear-gradient(rgba(255, 165, 0, 0.5), rgba(255, 165, 0, 0.5)), url(fondo.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 75;
+   height: 75vh; 
+   margin-top: 50px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100px; 
+    height: auto;
+}
+
+h1,
+p {
+    color: #ffffff;
+}
+
+
+
+ /* octava seccion */
+ 
+ .background-seccion8 {
+    background-color: #ffffff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.entradas-recientes {
+    text-align: center;
+}
+
+.entradas-recientes h2 {
+    color: #000000;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card img {
+    min-width:  100%;
+    max-height: 100%;
+    
+}
+
+.card-content {
+    padding: 10px;
+    text-align: left; /* Alinea el enlace a la izquierda */
+    color: #00bec9;
+}
+
+.card h3 {
+    color: black;
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.card p {
+    color: #000000;
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+.card a {
+    color: #00bec9; /* Cambia el color del enlace a verde */
+    text-align: left; /* Alinea el enlace a la izquierda */
+}
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    background-color: #343434; /* Cambio de color de fondo */
+    padding: 180px; /* Espaciado interior */
+    color: #ffffff;
+}
+
+.footer-column {
+    width: 30%;
+    text-align: center;
+    position: relative; /* Añadido para posicionar el icono del avión */
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #ffffff; /* Cambio de color del texto */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.social-icons a img {
+    width: 30px; /* Tamaño de los iconos */
+}
+
+.yellow-rectangle {
+    background-color: yellow;
+    width: 270px;
+    height: 50px;
+}
+
+.newsletter-signup {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 0; /* Ajuste para colocar arriba */
+    left: calc(100% + 10px); /* Alinear a la derecha */
+    background-color: #00bec9;
+    z-index: 1; /* Asegurar que esté por encima del rectángulo amarillo */
+    right: 10px; /* Ajuste para mover a la derecha */
+}
+.footer-column {
+    width: 30%;
+    text-align: left;
+    position: relative;
+}
+
+.yellow-rectangle {
+    background-color: yellow;
+    width: 250px;
+    height: 50px;
+    display: inline-block;
+}
+
+.green-rectangle {
+    background-color: #00bec9;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.green-rectangle img {
+    width: 30px;
+    position: relative;
+    top: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.social-icons a img {
+    width: 30px;
+}
+.parrafo-entradas{
+    color: black; padding: 10px 120px;
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar {
+        padding: 10px; /* Reduce padding */
+    }
+
+    .menu {
+        display: none; /* Hide menu items */
+    }
+
+    .search-container {
+        margin-left: 0; /* Remove margin for search container */
+    }
+
+    .search-container input[type="text"] {
+        width: 100px; /* Adjust input width */
+    }
+
+    .search-container button {
+        width: 40px; /* Adjust button width */
+    }
+}
+
+/* Responsive styles for iPads */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .navbar {
+        padding: 10px 60px; /* Adjust padding */
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .perro {
+        position: static;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .background-seccion2 {
+        padding: 0px 50px 20px;
+        flex-wrap: wrap;
+    }
+    .background-seccion2 .text-align{
+        width: 80vw;
+    }
+
+    .background-seccion3{
+        padding: 20px 50px 20px;
+    }
+    .background-seccion4{
+        flex-wrap: wrap-reverse;
+        padding: 20px 50px;
+    }
+    .background-seccion4 .persona2{
+        flex: auto;
+    }
+    .background-seccion5 .contenedor-imagenes{
+        padding: 0px 50px 20px;
+    }
+    .background-seccion6{
+        padding: 0px 50px 20px;
+    }
+    .background-seccion8{
+        padding: 0px 50px 20px;
+    }
+    .parrafo-entradas{
+        padding: 0px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px;
+        background-color: #343434;
+        padding: 20px;
+        color: #ffffff;
+        flex-wrap: wrap;
+        width: 88vw;
+    }
+    .yellow-rectangle{
+        width: 10vw;
+    }
+    .green-rectangle{
+        width: 10vw;
+    }
+    .contenedor-footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .background-seccion1{
+        padding: 6px 50px;
+    }
+}
+
+
+
+
+
